@@ -1,0 +1,44 @@
+.body {
+    margin: 0;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.top-side {
+  -ms-flex: 45%; /* IE10 */
+  flex: 45%;
+  padding: 20px;
+}
+
+/* Main column */
+.top-main {   
+  -ms-flex: 55%; /* IE10 */
+  flex: 55%;
+  padding: 20px;
+}
+
+.bottom-side {
+  -ms-flex: 55%; /* IE10 */
+  flex: 55%;
+  padding: 20px;
+}
+
+/* Main column */
+.bottom-main {   
+  -ms-flex: 45%; /* IE10 */
+  flex: 45%;
+  padding: 20px;
+}
+
+.text {
+    padding: 20px; 
+    text-align: justified;
+}
