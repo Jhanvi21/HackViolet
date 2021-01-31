@@ -7,69 +7,82 @@
     grid-template-rows:130px 190px 190px 190px;
 }
 .cell {
-  color: white;
+  color: black;
   font-size: 1.5rem;
   text-align: center;
   padding: 3rem;
-  font-family: sans-serif;
+/*  font-family: sans-serif;*/
+    font-family: wendy one;
 /*  padding:6px;*/
-  color: grey;
+/*  color: grey;*/
 /*  background-color: white; */
 /*  border: black 2px solid;*/
 padding: 25px 50px 75px 100px;
 
 }
 .cell-1 {
-  background: deepskyblue;
+  background: #a33e77;
     grid-row:1;
     grid-column:1/4;
+    font-size: 2 rem;
 }
 .cell-2 {
-  background: orangered;
-    background-image: url(Images/2.jpg);
-    
+    background-image: url(2.png);
+width: 450px;
+    height: 190px
+    object-fit: cover;
 }
+
 .cell-3 {
-  background: royalblue;
-        background-image: url(Images/3.jpg);
+ 
+        background-image: url(3.jpg);
+   width: 450px;
+    height: 190px
+    object-fit: cover;
 
 }
 .cell-4 {
-  background: gold;
-        background-image: url(Images/4.jpg);
+        background-image: url(4.png);
 
 }
 .cell-5 {
-  background: blueviolet;
-/*     background-image: url(Images/5.jpg);*/
+  
+     background-image: url(5.png);
 }
 .cell-6 {
-  background: limegreen;
-/*         background-image: url(Images/6.jpg);*/
+
+         background-image: url(6.png);
 
 }
 .cell-7 {
-  background: coral;
-/*             background-image: url(Images/7.jpg);*/
+ 
+             background-image: url(7.png);
+    
     
 }
 .cell-8 {
-  background: lightseagreen;
-/*             background-image: url(Images/8.jpg);*/
+ 
+             background-image: url(8.jpg);
 
     
 }
 .cell-9 {
-  background: maroon;
-/*             background-image: url(Images/9.jpg);*/
+
+             background-image: url(9.jpg);
 
 }
 
 .cell-10 {
-  background: black;
-/*             background-image: url(Images/10.jpg);*/
+
+             background-image: url(10.jpg);
     
 }
 .container { 
   grid-gap: 10px 10px; 
+}
+
+.2.jpg{
+    
+    
+    opacity: 0.4;
 }
