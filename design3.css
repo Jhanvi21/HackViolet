@@ -1,0 +1,74 @@
+.body {
+    margin: 0;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.right {
+  -ms-flex: 60%; /* IE10 */
+  flex: 60%;
+  padding: 20px;
+}
+
+.left {   
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  padding: 20px;
+    margin: 50px;
+}
+
+
+
+
+
+
+
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #4A237C, #fff);
+  /* (C) NECESSARY TO POSITION TEXT BLOCK */
+  line-height: 0;
+  position: relative;
+}
+ 
+/* (D) MATCH HEIGHT */
+.circle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+ 
+/* (E) TEXT BLOCK */
+.circle-txt {
+  /* (E1) CENTER TEXT IN CIRCLE */
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+ 
+  /* (E2) THE FONT - NOT REALLY IMPORTANT */
+  font-weight: bold;
+    color: white;
+}
+
+
+.text {
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+.box {
+    border: 3px solid black;
+    background: #C4C4C4;
+}
